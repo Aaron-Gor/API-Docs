@@ -25,7 +25,7 @@ The customer can order one or more beefburger or a veggie burger. The size can b
 
 The customer orders a drink and has the option of regular coke or diet coke. The drink order size can be small or large. The customer can order with or without ice.
 
-*__Table showing API item properties (order drinks)__* 
+*__Table showing API drink properties (order drinks)__* 
 
 | PROPERTY   | DATA TYPE | DESCRIPTION                                                          | DEFAULT        | MANDATORY/OPTIONAL |
 |------------|-----------|----------------------------------------------------------------------|----------------|--------------------|
