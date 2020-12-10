@@ -17,6 +17,8 @@ The customer can order one or more beefburger or a veggie burger. The size can b
 | condiment_type  | string    | Specifies the type of condiment. Can be "ketchup", "BBQ sauce" or "none"            | "ketchup" | optional           |
 
 
+
+
 #**ORDER A DRINK**# 
 
 **POST/meal/lunch/drink/drink properties** 
