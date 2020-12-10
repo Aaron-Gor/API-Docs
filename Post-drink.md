@@ -1,8 +1,10 @@
-#**ORDER A DRINK**#
+#**ORDER A DRINK**# 
+
+*__POST/meal/lunch/drink/drink properties__*
 
 The customer orders a drink and has the option of regular coke or diet coke. The drink order size can be small or large. The customer can order with or without ice. 
 
-*__POST/meal/lunch/drink/drink properties__*
+*Table showing item properties*
 
 | PROPERTY   | DATA TYPE | DESCRIPTION                                                          | DEFAULT        | MANDATORY/OPTIONAL |
 |------------|-----------|----------------------------------------------------------------------|----------------|--------------------|
