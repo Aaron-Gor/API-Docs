@@ -18,7 +18,20 @@ The customer can order one or more beefburger or a veggie burger. The size can b
 
 
 
-#**
+**#ORDER A SIDE#**
+
+**POST/meal/lunch/sides/side properties** 
+
+The customer orders a side with 3 options. Default number of sides is 2 per burger meal. The customer can order a third side. 
+
+*__Table showing API side properties (order side)__*
+
+| PROPERTY      | DATA TYPE | DESCRIPTION                                                                                                                                                                                                                                             | DEFAULT        | MANDATORY/OPTIONAL |
+|---------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|--------------------|
+| side_type     | string    | Specifies the type of sides. Can be "french fries", "onion rings" or "coleslaw".                                                                                                                                                                        | "french fries" | optional           |
+| side_size     | string    | Specifies the size of the order. Can be "standard" or "large".                                                                                                                                                                                          | "standard"     | optional           |
+| side_quantity | int       | The number of sides to order. The default value is 2. If the customer orders less, they will still be charged the full base price. If they order more than 2 sides, they will be charged an additional $1 for each item. Acceptable values are 1, 2, 3. | 2              | optional           |
+
 
 
 **#ORDER A DRINK#** 
