@@ -1,4 +1,4 @@
-#**ORDER A BURGER MEAL**# 
+**#ORDER A BURGER MEAL#** 
 
 **POST/meal/lunch/main/burger/burger properties** 
 
@@ -18,8 +18,10 @@ The customer can order one or more beefburger or a veggie burger. The size can b
 
 
 
+#**
 
-#**ORDER A DRINK**# 
+
+**#ORDER A DRINK#** 
 
 **POST/meal/lunch/drink/drink properties** 
 
