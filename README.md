@@ -1,7 +1,6 @@
 # API-Docs
 
-
-**##Introduction##** 
+# Introduction # 
 
 The overall concept for this embryo API is to take restaurant orders from seated customers, send the orders to the kitchen for preparation and generate a bill at the end of the sitting. The system will be used by: table staff and kitchen staff. The Proof of Concept (POC)at this stage is for a restaurant API for taking food orders, sending the orders to the kitchen, and generating bills. The API takes orders from the restaurant-side by the waiter/waitress and sends the order to the server-side ordering terminal in the kitchen. The orders are printed out for the cooks.
 
@@ -14,7 +13,7 @@ This is a simple diagram of the concept.
 
 ![Workflow Diagram](AaronAPIWorkflow.png)
 
-**##Introduction##** 
+**## Introduction ##** 
 
 The overall concept for this embryo API is to take restaurant orders from seated customers, send the orders to the kitchen for preparation and generate a bill at the end of the sitting. The system will be used by: table staff and kitchen staff. The Proof of Concept (POC)at this stage is for a restaurant API for taking food orders, sending the orders to the kitchen, and generating bills. The API takes orders from the restaurant-side by the waiter/waitress and sends the order to the server-side ordering terminal in the kitchen. The orders are printed out for the cooks.
 
