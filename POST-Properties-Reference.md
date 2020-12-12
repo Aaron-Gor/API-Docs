@@ -34,7 +34,7 @@ The customer orders a side with 3 options. Default number of sides is 2 per burg
 
 
 
-**#ORDER A DRINK#** 
+# ORDER A DRINK #
 
 **POST/meal/lunch/drink/drink properties** 
 
@@ -49,8 +49,7 @@ The customer orders a drink and has the option of regular coke or diet coke. The
 | ice        | string    | Specifies is drink with "ice"  or "no ice".                          | "ice"          | optional           |
 
 
-
-**#POST RESPONSES#**
+# POST RESPONSES #
 
 Possible server responses to POSTS. 
 
