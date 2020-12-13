@@ -4,7 +4,7 @@ POST/meal/lunch/main/burger/burger properties
 
 The customer can order one or more beefburger or a veggie burger. The size can be 300 gr or 400 gr. The customer has the option to specify how the burger is cooked: medium rare, medium or well-done. The customer has the option to choose the bun type: white or whole meat. The customer can choose the type of topping for the burger: lettuce, tomato, onion or no topping. The customer can choose which condiment to have with the burger: ketchup, BBQ sauce, mushroom sauce or no condiment.
 
-*__Table showing API burger properties (order burger meal)__* 
+*__Table showing API burger properties (data type, description, default, mandatory/optional) for ordering a burger meal__* 
 
 | PROPERTY        | DATA TYPE | DESCRIPTION                                                                         | DEFAULT   | MANDATORY/OPTIONAL |
 |-----------------|-----------|-------------------------------------------------------------------------------------|-----------|--------------------|
@@ -24,7 +24,7 @@ POST/meal/lunch/sides/side properties
 
 The customer orders a side with 3 options. Default number of sides is 2 per burger meal. The customer can order a third side. 
 
-*__Table showing API side properties (order side)__*
+*__Table showing API properties (data type, description, default, mandatory/optional) for ordering sides__*
 
 | PROPERTY      | DATA TYPE | DESCRIPTION                                                                                                                                                                                                                                             | DEFAULT        | MANDATORY/OPTIONAL |
 |---------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|--------------------|
@@ -40,7 +40,7 @@ POST/meal/lunch/drink/drink properties
 
 The customer orders a drink and has the option of regular coke or diet coke. The drink order size can be small or large. The customer can order with or without ice.
 
-*__Table showing API drink properties (order drinks)__* 
+*__Table showing API properties (data type, description, default, mandatory/optional) for ordering drinks__* 
 
 | PROPERTY   | DATA TYPE | DESCRIPTION                                                          | DEFAULT        | MANDATORY/OPTIONAL |
 |------------|-----------|----------------------------------------------------------------------|----------------|--------------------|
@@ -53,7 +53,7 @@ The customer orders a drink and has the option of regular coke or diet coke. The
 
 Possible server responses to POSTS. 
 
-*__Table showing possible server responses to POSTS__* 
+*__Table showing possible server responses to POSTS (status and descriptions)__* 
 
 | STATUS | CODE DESCRIPTION                                            |
 |--------|-------------------------------------------------------------|
