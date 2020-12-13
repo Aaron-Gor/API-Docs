@@ -1,4 +1,4 @@
-# API Documentation for restaurant orders
+# API Documentation for Restaurant Orders
 
 # Introduction 
 
