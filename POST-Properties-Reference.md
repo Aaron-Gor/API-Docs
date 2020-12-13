@@ -1,6 +1,6 @@
-# ORDER A BURGER MEAL #
+# ORDER A BURGER MEAL 
 
-**POST/meal/lunch/main/burger/burger properties** 
+**POST/meal/lunch/main/burger/burger properties 
 
 The customer can order one or more beefburger or a veggie burger. The size can be 300 gr or 400 gr. The customer has the option to specify how the burger is cooked: medium rare, medium or well-done. The customer has the option to choose the bun type: white or whole meat. The customer can choose the type of topping for the burger: lettuce, tomato, onion or no topping. The customer can choose which condiment to have with the burger: ketchup, BBQ sauce, mushroom sauce or no condiment.
 
@@ -18,9 +18,9 @@ The customer can order one or more beefburger or a veggie burger. The size can b
 
 
 
-## ORDER A SIDE ##
+## ORDER A SIDE 
 
-**POST/meal/lunch/sides/side properties** 
+**POST/meal/lunch/sides/side properties 
 
 The customer orders a side with 3 options. Default number of sides is 2 per burger meal. The customer can order a third side. 
 
