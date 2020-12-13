@@ -1,8 +1,8 @@
-# GET PROPERTIES REFERENCES #
+# GET PROPERTIES REFERENCES 
 
 This section shows the properties required for generating a customer bill.
 
-## GET/table number # 
+## GET/table number 
 
 | PROPERTY     | DATA TYPE | DESCRIPTION                                |
 |--------------|-----------|--------------------------------------------|
