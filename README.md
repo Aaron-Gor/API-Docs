@@ -6,7 +6,7 @@ The overall concept for this embryo API is to take restaurant orders from seated
 
 The next stage of the API development will be to develop a tablet-based ordering system for take-away orders. Customers will use a tablet to place orders. The orders will generate a bill which the customer pays. The order is then sent to the kitchen for preparation.
 
-[Get-drink file](POST-Properties-Reference.md)
+[Post_Bugermeal_File](POST-Properties-Reference.md)
 
 @lsnovich
 
