@@ -14,7 +14,7 @@ The next stage of the API development will be to develop a tablet-based ordering
 
 @lsnovich
 
-## Diagram Showing workflow for ordering a burgermeal 
+### Diagram Showing workflow for ordering a burgermeal 
 
 
 ![Workflow Diagram](AaronAPIWorkflow.png)
