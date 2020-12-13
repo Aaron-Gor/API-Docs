@@ -15,4 +15,4 @@ This section shows the properties, data type, and descriptions required for gene
 
 ## GET HTTP STATUS CODES
 
-Get HTTP Status Codes can be found here [GET_HTTP_Status_Codes](readme.md)
+Get HTTP Status Codes can be found here [GET_HTTP_Status_Codes](https://github.com/Aaron-Gor/API-Docs/blob/main/README.md)
