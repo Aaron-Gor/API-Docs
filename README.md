@@ -6,11 +6,11 @@ The overall concept for this embryo API is to take restaurant orders from seated
 
 The next stage of the API development will be to develop a tablet-based ordering system for take-away orders. Customers will use a tablet to place orders. The orders will generate a bill which the customer pays. The order is then sent to the kitchen for preparation.
 
-See here for [POST Bugermeal Properties File](POST-Properties-Reference.md) Properties and descriptions for POST actions.
+**See here** for [POST Bugermeal Properties File](POST-Properties-Reference.md) Properties and descriptions for POST actions.
 
-See here for [GET Properties File](GET-Properties-Reference.md) Properties and descriptions for GET actions (get bill).
+**See here** for [GET Properties File](GET-Properties-Reference.md) Properties and descriptions for GET actions (get bill).
 
-See here for [WORKFLOW Diagram](AaronAPIWorkflow.png) Workflow diagram for burgermeal order.
+**See here** for [WORKFLOW Diagram](AaronAPIWorkflow.png) Workflow diagram for burgermeal order.
 
 @lsnovich
 
