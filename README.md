@@ -10,11 +10,11 @@ See here for [POST Bugermeal Properties File](POST-Properties-Reference.md) Prop
 
 See here for [GET Properties File](GET-Properties-Reference.md) Properties and descriptions for GET actions (get bill).
 
-See here for [WORKFLOW Diagram](AaronAPIWorkflow.png) WOrkflow diagram for burgermeal order.
+See here for [WORKFLOW Diagram](AaronAPIWorkflow.png) Workflow diagram for burgermeal order.
 
 @lsnovich
 
-This is a simple diagram of the concept.
+##**Diagram Showing workflow for ordering a burgermeal
 
 
 ![Workflow Diagram](AaronAPIWorkflow.png)
