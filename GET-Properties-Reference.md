@@ -11,3 +11,6 @@ This section shows the properties, data type, and descriptions required for gene
 | table_number | int       | The number of the table in the restaurant. |
 | order_number | int       | The specific UI assigned to each order.    |
 | time_stamp   | date      | The time the order was taken in Unix time. |
+
+
+# GET HTTP STATUS CODES
