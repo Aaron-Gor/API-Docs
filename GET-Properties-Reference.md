@@ -4,7 +4,7 @@ This section shows the properties, data type, and descriptions required for gene
 
 ## GET/table number 
 
-*__ Table showing properties, data type, and description for GET actions __*  
+**_Table showing properties, data type, and description for GET actions 
 
 | PROPERTY     | DATA TYPE | DESCRIPTION                                |
 |--------------|-----------|--------------------------------------------|
