@@ -10,7 +10,7 @@ The customer can order one or more beefburger or a veggie burger. The size can b
 |-----------------|-----------|-------------------------------------------------------------------------------------|-----------|--------------------|
 | patty_type      | string    | Specifies the type of burger. Can be "beef" or "veggie".                            | "beef"    | optional           |
 | patty_weight    | int       | Specifies the weight of the burger. Can be 300 gr or 400 gr.                        | 300       | optional           |
-| patty_cook      | string    | Specifies how the burger is cooked.  Can be "medium rare", "medium" or 'well done". | "medium"  | optional           |
+| patty_cook      | string    | Specifies how the burger is cooked.  Can be "medium rare", "medium", or 'well done". | "medium"  | optional           |
 | burger_quantity | int       | Specifies the number of patties to prepare. Acceptable values are 1-3.              | 1         | optional           |
 | bun_type        | string    | Specifies the type of bun. Can be  "white" or "whole wheat".                        | "white"   | optional           |
 | topping_type    | string    | Specifies the type of toppings. Can be "lettuce", "tomato",  "onion", or  "none".   | "lettuce" | optional           |
@@ -34,9 +34,9 @@ The customer orders a side with 3 options. Default number of sides is 2 per burg
 
 
 
-## ORDER A DRINK ##
+## ORDER A DRINK 
 
-**POST/meal/lunch/drink/drink properties** 
+**POST/meal/lunch/drink/drink properties 
 
 The customer orders a drink and has the option of regular coke or diet coke. The drink order size can be small or large. The customer can order with or without ice.
 
@@ -49,7 +49,7 @@ The customer orders a drink and has the option of regular coke or diet coke. The
 | ice        | string    | Specifies is drink with "ice"  or "no ice".                          | "ice"          | optional           |
 
 
-## POST RESPONSES ##
+## POST RESPONSES 
 
 Possible server responses to POSTS. 
 
