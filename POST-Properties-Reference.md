@@ -20,7 +20,7 @@ The customer can order one or more beefburger or a veggie burger. The size can b
 
 ## ORDER A SIDE 
 
-** POST/meal/lunch/sides/side properties 
+POST/meal/lunch/sides/side properties 
 
 The customer orders a side with 3 options. Default number of sides is 2 per burger meal. The customer can order a third side. 
 
