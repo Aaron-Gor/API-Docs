@@ -23,4 +23,15 @@ The next stage of the API development will be to develop a tablet-based ordering
 ![Workflow Diagram](AaronAPIWorkflow.png)
 
 
+## POST RESPONSES 
+
+Possible server responses to POSTS. 
+
+*__Table showing possible server responses to POSTS (status and descriptions)__* 
+
+| STATUS | CODE DESCRIPTION                                            |
+|--------|-------------------------------------------------------------|
+| 200    | Meal was successfully ordered.                              |
+| 400    | Error in order. Data missing or incomplete. Please reorder. |
+| 500    | Internal server error. Please try again.                    |
 
