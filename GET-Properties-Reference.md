@@ -13,4 +13,4 @@ This section shows the properties, data type, and descriptions required for gene
 | time_stamp   | date      | The time the order was taken in Unix time. |
 
 
-# GET HTTP STATUS CODES
+## GET HTTP STATUS CODES
