@@ -10,6 +10,8 @@ The next stage of the API development will be to develop a tablet-based ordering
 
 [GET Properties File](GET-Properties-Reference.md)
 
+[WORKFLOW Diagram](AaronAPIWorkflow.png)
+
 @lsnovich
 
 This is a simple diagram of the concept.
