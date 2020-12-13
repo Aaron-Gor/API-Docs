@@ -1,6 +1,6 @@
 # GET PROPERTIES REFERENCES 
 
-This section shows the properties required for generating a customer bill.
+This section shows the properties, data type, and descriptions required for generating a customer bill (table number, order number, time stamp).
 
 ## GET/table number 
 
