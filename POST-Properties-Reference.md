@@ -16,7 +16,25 @@ The customer can order one or more beefburger or a veggie burger. The size can b
 | topping_type    | string    | Specifies the type of toppings. Can be "lettuce", "tomato",  "onion", or  "none".   | "lettuce" | optional           |
 | condiment_type  | string    | Specifies the type of condiment. Can be "ketchup", "BBQ sauce" or "none"            | "ketchup" | optional           |
 
+**Example of coding for ordering a burgermeal
 
+curl -H "Content-Type: application/json" -X POST -d'{
+   "mealType":"lunch",
+   "mealCat":{
+  	"main":"burgerMeal",
+  	"burger":{
+     	"pattyType":"beef",
+     	"pattyQty":”1”,
+     	"pattyWeightG":”300”,
+     	"pattyCook":"M",
+     	"bunType":"white",
+     	"condiment1":"mushroomSauce",
+     	"condiment2":"none",
+     	"topping1":"lettuce",
+     	"topping2":"tomato",
+     	"topping3":"none",
+}
+'''
 
 ## ORDER A SIDE 
 
