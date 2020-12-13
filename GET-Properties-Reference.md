@@ -2,9 +2,9 @@
 
 This section shows the properties, data type, and descriptions required for generating a customer bill (table number, order number, time stamp).
 
-## GET/table number 
+## GET/table number  
 
-**_ Table showing properties, data type, and description for GET actions 
+*__Table showing properties, data type, and description for GET actions__*
 
 | PROPERTY     | DATA TYPE | DESCRIPTION                                |
 |--------------|-----------|--------------------------------------------|
