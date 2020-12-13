@@ -14,3 +14,5 @@ This section shows the properties, data type, and descriptions required for gene
 
 
 ## GET HTTP STATUS CODES
+
+Get HTTP STatus Codes can be found here [here](readme.md)
