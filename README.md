@@ -1,3 +1,5 @@
+This documentation is borrowed and adapted from Alex Fielder. For training purposes only
+
 # API Documentation for Restaurant Orders
 
 ## Introduction 
