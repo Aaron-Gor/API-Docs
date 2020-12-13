@@ -4,6 +4,8 @@ This section shows the properties, data type, and descriptions required for gene
 
 ## GET/table number 
 
+*_ Table showing properties, data type, and description for GET actions 
+
 | PROPERTY     | DATA TYPE | DESCRIPTION                                |
 |--------------|-----------|--------------------------------------------|
 | table_number | int       | The number of the table in the restaurant. |
