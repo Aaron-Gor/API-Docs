@@ -19,21 +19,37 @@ The customer can order one or more beefburger or a veggie burger. The size can b
 **Example of coding for ordering a burgermeal
 
 curl -H "Content-Type: application/json" -X POST -d'{
+
    "mealType":"lunch",
+   
    "mealCat":{
+   
   	"main":"burgerMeal",
+   
   	"burger":{
+   
      	"pattyType":"beef",
+      
      	"pattyQty":”1”,
+      
      	"pattyWeightG":”300”,
+      
      	"pattyCook":"M",
+      
      	"bunType":"white",
+      
      	"condiment1":"mushroomSauce",
+      
      	"condiment2":"none",
+      
      	"topping1":"lettuce",
+      
      	"topping2":"tomato",
+      
      	"topping3":"none",
+      
 }
+
 '''
 
 ## ORDER A SIDE 
