@@ -70,15 +70,26 @@ The customer orders a side with 3 options. Default number of sides is 2 per burg
 **Example JSON coding for ordering sides**
 
 },
+
   	"sides":{
+   
      	"side1":{
+      
         	"type":"frenchFries",
+         
         	"size":"large"
+         
      	},
+      
      	"side2":
+      
         	"type":”onion rings”,
+         
         	"size":"large"
+         
      	}
+      
+      
 '''
 
 
@@ -99,12 +110,19 @@ The customer orders a drink and has the option of regular coke or diet coke. The
 **Example JSON coding for ordering sides**
 
 },
+
   	"drink":{
+   
      	"type":"Coke",
+      
      	"size":"large",
+      
      	"ice":"no"
+      
   	}
+   
    '''
+   
 
 
 ## GET HTTP STATUS CODES
