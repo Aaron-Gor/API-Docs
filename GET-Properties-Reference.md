@@ -16,3 +16,29 @@ This section shows the properties, data type, and descriptions required for gene
 ## GET HTTP STATUS CODES
 
 Possible server status codes following GET action (Get HTTP Status Codes) can be found [here](https://github.com/Aaron-Gor/API-Docs/blob/main/README.md)
+
+
+## EXAMPLE JSON CODE
+
+}
+
+curl -X GET "http://URL/tableNo?id=99
+tableNo
+
+{    “table number”: “5" 
+
+   “orderNum":”123”, 
+   "timestamp":"2020-01-21T07:44:45-05:00", 
+   "Item1":{      
+   "ItemOrdered":{          
+   "type":"burgerMeal",          
+   "Cost":10.99       
+   }    
+   },    
+   "Item2":{       
+   "ItemOrdered":{          
+   "type":"salad",          
+   "Cost":9.50       
+   }    
+   }
+}
