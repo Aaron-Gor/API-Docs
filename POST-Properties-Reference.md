@@ -67,6 +67,20 @@ The customer orders a side with 3 options. Default number of sides is 2 per burg
 | side_quantity | int       | The number of sides to order. The default value is 2. If the customer orders less, they will still be charged the full base price. If they order more than 2 sides, they will be charged an additional $1 for each item. Acceptable values are 1, 2, 3. | 2              | optional           |
 
 
+**Example JSON coding for ordering sides**
+
+},
+  	"sides":{
+     	"side1":{
+        	"type":"frenchFries",
+        	"size":"large"
+     	},
+     	"side2":
+        	"type":”onion rings”,
+        	"size":"large"
+     	}
+'''
+
 
 ## ORDER A DRINK 
 
@@ -82,6 +96,15 @@ The customer orders a drink and has the option of regular coke or diet coke. The
 | drink_size | string    | Specifies the size of drink. Can be "small" or "large".              | "small"        | optional           |
 | ice        | string    | Specifies is drink with "ice"  or "no ice".                          | "ice"          | optional           |
 
+**Example JSON coding for ordering sides**
+
+},
+  	"drink":{
+     	"type":"Coke",
+     	"size":"large",
+     	"ice":"no"
+  	}
+   '''
 
 
 ## GET HTTP STATUS CODES
