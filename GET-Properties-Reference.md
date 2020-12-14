@@ -18,7 +18,7 @@ This section shows the properties, data type, and descriptions required for gene
 Possible server status codes following GET action (Get HTTP Status Codes) can be found [here](https://github.com/Aaron-Gor/API-Docs/blob/main/README.md)
 
 
-## EXAMPLE JSON CODE
+## EXAMPLE JSON CODING FOR GETTING THE BILL
 
 }
 
