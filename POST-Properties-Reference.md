@@ -95,7 +95,7 @@ The customer orders a side with 3 options. Default number of sides is 2 per burg
 
 ## ORDER A DRINK 
 
-POST/meal/lunch/drink/drink properties 
+*POST/meal/lunch/drink/drink properties* 
 
 The customer orders a drink and has the option of regular coke or diet coke. The drink order size can be small or large. The customer can order with or without ice.
 
