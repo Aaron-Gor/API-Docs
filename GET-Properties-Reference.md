@@ -20,7 +20,7 @@ Possible server status codes following GET action (Get HTTP Status Codes) can be
 
 ## EXAMPLE JSON CODING FOR GETTING THE BILL
 
-}
+```}
 
 curl -X GET "http://URL/tableNo?id=99
 tableNo
@@ -41,4 +41,4 @@ tableNo
    "Cost":9.50       
    }    
    }
-}
+}```
