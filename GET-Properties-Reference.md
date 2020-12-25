@@ -18,9 +18,9 @@ This section shows the properties, data type, and descriptions required for gene
 Possible server status codes following GET action (Get HTTP Status Codes) can be found [here](https://github.com/Aaron-Gor/API-Docs/blob/main/README.md)
 
 
-## EXAMPLE JSON CODING FOR GETTING THE BILL
+## JSON response schema
 
-}
+```JSON
 
 curl -X GET "http://URL/tableNo?id=99
 tableNo
@@ -41,4 +41,4 @@ tableNo
    "Cost":9.50       
    }    
    }
-}
+} ```
