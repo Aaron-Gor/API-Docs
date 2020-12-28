@@ -20,11 +20,10 @@ Possible server status codes following GET action (Get HTTP Status Codes) can be
 
 ## JSON response schema
 
-```JSON
-
 curl -X GET "http://URL/tableNo?id=99
 tableNo
 
+```
 {    “table number”: “5" 
 
    “orderNum":”123”, 
@@ -41,4 +40,6 @@ tableNo
    "Cost":9.50       
    }    
    }
+
 } ```
+

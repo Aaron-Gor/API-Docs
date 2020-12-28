@@ -2,7 +2,11 @@
 
 POST/meal/lunch/main/burger/burger properties 
 
-The customer can order one or more beefburger or a veggie burger. The size can be 300 gr or 400 gr. The customer has the option to specify how the burger is cooked: medium rare, medium or well-done. The customer has the option to choose the bun type: white or whole meat. The customer can choose the type of topping for the burger: lettuce, tomato, onion or no topping. The customer can choose which condiment to have with the burger: ketchup, BBQ sauce, mushroom sauce or no condiment.
+The customer can order one or more beef or a veggie burger. The size can be 300 or 400 gr.
+The customer has the option to specify how the burger is cooked: medium rare, medium or well-done
+The customer has the option to choose the bun type: white or whole wheat.
+The customer can choose the type of topping for the burger: lettuce, tomoato, onion, or no topping. The customer can choose which
+condiment to have with the burger: ketchup, BBQ sauce, mushroom sauce, or no condiment.
 
 *__Table showing API burger properties (data type, description, default, mandatory/optional) for ordering a burger meal__* 
 
@@ -17,40 +21,28 @@ The customer can order one or more beefburger or a veggie burger. The size can b
 | condiment_type  | string    | Specifies the type of condiment. Can be "ketchup", "BBQ sauce" or "none"            | "ketchup" | optional           |
 
 **Example JSON coding for ordering a burgermeal**
+```JSON
+  curl -H "Content-Type: application/json" -X POST -d'{
 
-curl -H "Content-Type: application/json" -X POST -d'{
+     "mealType":"lunch"
+     "mealCat":{
+     "main":"burgerMeal",
+  	     "burger":{
+     	     "pattyType":"beef",
+       	  "pattyQty":"1",
+     	     "pattyWeightG":"300",
+     	     "pattyCook":"M",
+     	     "bunType":"white",
+     	     "condiment1":"mushroomSauce",
+     	     "condiment2":"none",
+           "topping1":"lettuce",
+     	     "topping2":"tomato",
+     	     "topping3":"none",
+           },
+      },
+         }'
 
-   "mealType":"lunch",
-   
-   "mealCat":{
-   
-  	"main":"burgerMeal",
-   
-  	"burger":{
-   
-     	"pattyType":"beef",
-      
-     	"pattyQty":”1”,
-      
-     	"pattyWeightG":”300”,
-      
-     	"pattyCook":"M",
-      
-     	"bunType":"white",
-      
-     	"condiment1":"mushroomSauce",
-      
-     	"condiment2":"none",
-      
-     	"topping1":"lettuce",
-      
-     	"topping2":"tomato",
-      
-     	"topping3":"none",
-      
-}
-
-'''
+```
 
 ## ORDER A SIDE 
 
@@ -69,7 +61,7 @@ The customer orders a side with 3 options. Default number of sides is 2 per burg
 
 **Example JSON coding for ordering sides**
 
-},
+```},
 
   	"sides":{
    
@@ -109,7 +101,7 @@ The customer orders a drink and has the option of regular coke or diet coke. The
 
 **Example JSON coding for ordering sides**
 
-},
+```},
 
   	"drink":{
    
