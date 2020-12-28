@@ -2,11 +2,7 @@
 
 POST/meal/lunch/main/burger/burger properties 
 
-The customer can order one or more beef or a veggie burger. The size can be 300 or 400 gr.
-The customer has the option to specify how the burger is cooked: medium rare, medium or well-done
-The customer has the option to choose the bun type: white or whole wheat.
-The customer can choose the type of topping for the burger: lettuce, tomoato, onion, or no topping. The customer can choose which
-condiment to have with the burger: ketchup, BBQ sauce, mushroom sauce, or no condiment.
+The customer can order one or more beef or veggie burgers. The size can be 300 or 400 g. The customer has the option to specify how the burger is cooked: medium rare, medium, or well-done The customer has the option to choose the bun type: white or whole wheat. The customer can choose the type of topping for the burger: lettuce, tomato, onion, or no topping. The customer can choose which condiment to have with the burger: ketchup, BBQ sauce, mushroom sauce, or no condiment.
 
 *__Table showing API burger properties (data type, description, default, mandatory/optional) for ordering a burger meal__* 
 
