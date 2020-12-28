@@ -1,4 +1,4 @@
-This documentation is borrowed and adapted from Alex Fielder. For training purposes only
+This documentation is borrowed and adapted from [Alex Fielder](https://www.linkedin.com/feed/update/urn:li:activity:6626465471241732096/). For training purposes only.
 
 # API Documentation for Restaurant Orders
 
@@ -14,7 +14,6 @@ The next stage of the API development will be to develop a tablet-based ordering
 
 **See here** for [WORKFLOW Diagram](AaronAPIWorkflow.png) Workflow diagram for burgermeal order.
 
-@lsnovich
 
 
 ### Diagram Showing workflow for ordering a burgermeal 
