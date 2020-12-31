@@ -20,24 +20,39 @@ The customer can order one or more beef or veggie burgers. The size can be 300 o
 ```JSON
   curl -H "Content-Type: application/json" -X POST -d'{
 
-     "mealType":"lunch"
-     "mealCat":{
-     "main":"burgerMeal",
-  	     "burger":{
-     	     "pattyType":"beef",
-       	  "pattyQty":"1",
-     	     "pattyWeightG":"300",
-     	     "pattyCook":"M",
-     	     "bunType":"white",
-     	     "condiment1":"mushroomSauce",
-     	     "condiment2":"none",
-           "topping1":"lettuce",
-     	     "topping2":"tomato",
-     	     "topping3":"none",
-           },
-      },
-         }'
+   "mealType":"lunch",
 
+   "mealCat":{
+
+  	"main":"burgerMeal",
+
+  	"burger":{
+
+     	"pattyType":"”beef”",
+
+     	"pattyQty":1,
+
+     	"pattyWeightG":300,
+
+     	"pattyCook":"MR",
+
+     	"bunType":"whute",
+
+     	"condiment1":"mushroomSauce",
+
+     	"condiment2":"none",
+
+     	"topping1":"lettuce",
+
+     	"topping2":"tomato",
+
+     	"topping3":"None",
+
+  	},
+
+  	   }
+
+}'
 ```
 
 ## ORDER A SIDE 
