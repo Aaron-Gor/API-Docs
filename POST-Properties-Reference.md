@@ -36,7 +36,7 @@ The customer can order one or more beef or veggie burgers. The size can be 300 o
 
      	"pattyCook":"MR",
 
-     	"bunType":"whute",
+     	"bunType":"white",
 
      	"condiment1":"mushroomSauce",
 
