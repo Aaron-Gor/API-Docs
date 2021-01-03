@@ -128,6 +128,3 @@ The customer orders a drink and has the option of regular coke or diet coke. The
    
 
 
-## GET HTTP STATUS CODES
-
-Possible server status codes following GET action (Get HTTP Status Codes) can be found [here](https://github.com/Aaron-Gor/API-Docs/blob/main/README.md)
